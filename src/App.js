@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+
 import "./App.css";
 import {
   Route,
@@ -54,36 +54,37 @@ class App extends Component {
           <footer>
             <ul>
               <li>
-                <a href="#">
+                <a href="/">
                   <i className="fa fa-twitter-square" />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="/">
                   <i className="fa fa-facebook-square" />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="/">
                   <i className="fa fa-snapchat-square" />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="/">
                   <i className="fa fa-pinterest-square" />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="/">
                   <i className="fa fa-github-square" />
                 </a>
               </li>
             </ul>
             <p>
-              Made by{" "}
-              <a href="http://tutorialzine.com/" target="_blank">
+              Made by
+              <a href="http://tutorialzine.com/" target="_blank"
+                 rel="noopener noreferrer">
                 CapsLok
-              </a>.{" "}
+              </a>.
             </p>
             <p>Ball out on these mofos</p>
           </footer>
